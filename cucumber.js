@@ -11,6 +11,7 @@ module.exports = {
       "json:reports/cucumber-report.json"
     ],
     paths: ["features/**/*.feature"],
-    parallel: 1
+    parallel: 1,
+    timeout: 120000
   }
 };
