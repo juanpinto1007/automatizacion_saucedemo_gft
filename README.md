@@ -9,7 +9,7 @@ Incluye escenarios con **tags**, **Scenario Outline (Data Driven)**, **steps par
 - Playwright
 - Cucumber.js
 - TypeScript
-- SQL (PostgreSQL 15 recomendado)
+- SQL (MYSQL 8 recomendado)
 
 ---
 
