@@ -19,7 +19,6 @@ export class CustomWorld extends World {
 
     this.page = await this.context.newPage();
 
-    // ✅ Timeouts globales (lo que pide la rúbrica)
     this.page.setDefaultTimeout(30000);
     this.page.setDefaultNavigationTimeout(30000);
   }
