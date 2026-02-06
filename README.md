@@ -97,12 +97,19 @@ Video por escenario (recordVideo)
 
 Reporte HTML desde JSON de Cucumber
 
-## Parte 2 - SQL
-Dentro de dataBase/ se incluyen:
+##  Parte 2 – SQL (MySQL)
 
-01_schema.sql
+Los queries solicitados se encuentran en:
 
-02_seed.sql
+dataBase/queries.sql
 
-queries.sql
+Incluye:
+- Uso de JOIN, LEFT JOIN
+- Subqueries
+- GROUP BY + HAVING
+- Manejo de NULL con COALESCE
+- Filtros por fecha (último mes)
+
+Las evidencias de ejecución se encuentran en:
+dataBase/evidencias/
 
