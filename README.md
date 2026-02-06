@@ -37,38 +37,35 @@ npx playwright install
 ```
 ## ▶️ Ejecución de tests
 
-1. Ejecutar TODOS los tests
-```bash
-npm run test
-```
-2. Ejecutar SOLO Smoke (@smoke)
+1. Ejecutar SOLO Smoke (@smoke)
 ```bash
 npm run test:smoke
 ```
-3. Ejecutar SOLO Regression (@regression)
+2. Ejecutar SOLO Regression (@regression)
 ```bash
 npm run test:regression
 ```
+Nota: Los tags se controlan desde cucumber.js.
 ## 📊 Reporte HTML
 
 1. Ejecutar tests (genera reports/cucumber-report.json):
 ```bash
-npm run test
+npm run test:smoke
 ```
 
 2. Generar reporte HTML:
 ```bash
-npm run report:html
+npm run report
 ```
 
 3. Abrir reporte:
 
-    Ruta: reports/html/cucumber-report.html
+    Ruta: reports/html/index.html
 
 ## 🧾 Evidencias (videos y screenshots)
 ### 🎥 Videos (por escenario)
 
-Carpeta: reports/videos/
+Carpeta: reports/videos/ (formato .webm)
 
 ### 📸 Screenshots (solo cuando el escenario falla)
 
