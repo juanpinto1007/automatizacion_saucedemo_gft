@@ -1,0 +1,17 @@
+{
+  "name": "automatizacion_saucedemo_gft",
+  "private": true,
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags \"@smoke\"",
+    "test:regression": "cucumber-js --tags \"@regression\"",
+    "report:html": "node ./src/support/report.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "@playwright/test": "^1.47.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

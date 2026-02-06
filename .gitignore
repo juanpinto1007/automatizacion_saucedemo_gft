@@ -1,0 +1,17 @@
+node_modules/
+
+reports/
+!reports/.gitkeep
+
+playwright-report/
+test-results/
+
+dist/
+build/
+*.tsbuildinfo
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
